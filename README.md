@@ -35,21 +35,21 @@ API працює з наступними основними сутностями
 ## Установка та запуск локально
 1. Склонуйте репозиторій:
 
-    ``bash
+    ```bash
     git clone <URL_репозиторія>
     cd <назва_папки>
 
 2. Створіть і активуйте віртуальне середовище:
-    ``bash
+    ```bash
     python -m venv venv
     source venv/bin/activate   # на Windows: venv\Scripts\activate
 
 3. Встановіть залежності:
-    ``bash
+    ```bash
     pip install -r requirements.txt
 
 4. Запустіть застосунок:
-    ``bash
+    ```bash
     python app.py
 
 5. Перевірте роботу, перейшовши за адресою http://127.0.0.1:5000/
